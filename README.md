@@ -1,4 +1,3 @@
-# Test_Show_Readme
 ## Create The Project Directory 📁
 ```
 mkdir Website
@@ -598,10 +597,13 @@ def delete(request, id):
         return redirect("/")
     return render(request, "pages/delete.html")
 ```
-{% comment %}  {% endcomment %}
-{% comment %}  {% endcomment %}
-{% comment %}  {% endcomment %}
+
+_____________________________
+_____________________________
+_____________________________
+# Usfull Commends
+```
 backend\Scripts\activate
 python manage.py runserver
-
+```
 
